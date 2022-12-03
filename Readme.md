@@ -1,6 +1,6 @@
 # Smart Supply and Attendance Generator
 
-![app.png](https://i.postimg.cc/TPzfY9tT/app.png)
+![app.png](https://i.ibb.co/px6r4BH/attendance-app.png)
 
 ## Installation, Documentation and Examples
 
