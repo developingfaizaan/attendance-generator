@@ -1,0 +1,30 @@
+<Stream>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            id: stream_label
+            text: "Select Stream"
+            font_size: 30
+        
+        Spinner:
+            id: stream_dropdown
+            text: "Stream Course"
+            values: ["BSCIT", "BMS", "BBI", "BMM"]
+            on_text: root.stream_clicked(stream_dropdown.text)
+
+        Label:
+            id: year_label
+            text: "Select Year"
+            font_size: 30
+        
+        Spinner:
+            id: year_dropdown
+            text: "Year"
+            values: ["FY", "SY", "TY"]
+            on_text: root.year_clicked(year_dropdown.text)
+
+        Button:
+            text: "Get Attendence"
+            font_size: 25
+            on_press: root.getAttendence()

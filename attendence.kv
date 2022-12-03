@@ -1,0 +1,19 @@
+<Attendence>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            id: mainlabel
+            font_size: 40
+        Button:
+            text: "Fetch Attendence Sheet"
+            font_size: 25
+            on_press: root.getAttendence()
+        Button:
+            text: "Go Back"
+            font_size: 25
+            on_press: root.goback()
+        Button:
+            text: "Logout"
+            font_size: 25
+            on_press: root.logout()
